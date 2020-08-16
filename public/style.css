@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/*===============WElcome form============================*/
+.welcomebody{
+    background-image: url("background_11.wide.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.welcome{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.welcome img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.welcome h1{
+    color: white ;
+    margin-left: auto;
+    text-align: center;
+    
+}
+.welcome input{
+    width: 40%;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    }
+    .welcome .btn{
+        color: gray;
+        font-weight: bold;
+        border: 1px solid white;
+        border-radius: 100px;
+        background-color: #fff;
+        transition: 0.4s all;
+    }
+    .btn:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    }
+    .welcome input:focus,.btn btn-light:focus{
+        outline: none;
+    }
+
+.quiz{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right,black,#4f4f4f,#D6D6D6);
+}
+.questions{
+    display: grid;
+    grid-template-rows: 50px auto;
+    margin: 55px auto;
+
+}
+.quiz-header{
+
+    /* border-radius: 50px; */
+    padding-left: 40px;
+    /* padding-top: 10px; */
+   /* box-shadow: 5px 10px black; */
+   
+}
+.quiz-body{
+    background-image:linear-gradient(to right #F58F7C,#F2c4ce);
+    
+  
+}
+.quiz-h1,.quiz-h2{
+    display: inline;
+    
+}
+.quiz-h1{
+    margin-top: 60px;
+    padding:10px;
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+.quiz-h2{
+    float: right;
+    margin: 0 40px;
+    background-image:linear-gradient(to left,#F2c4ce,#d6d6d6) ;
+    color: white;
+    padding: 10px;
+}
+.quiz-h2 p{
+    display: inline;
+}
+.head{
+    background-image: linear-gradient(to left,white,#D6d6d6);
+    background-color: white;
+    /* display: flex; */
+    /* float: right; */
+    color: black;
+    padding: 3px;
+} 
+
+/*.head i{
+    padding-top: 6px;
+    padding-left: 6px;
+    font-size: 30px;
+}  */
+.head h5{
+    /* margin-left: 410px; */
+    text-align: center;
+    font-family: sans-serif;
+font-weight: bold;
+} 
+/* .questions fieldset{
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px;
+    color: skyblue;
+    background-color: whitesmoke;
+
+}*/
+.ques{
+    margin: 40px;
+    color: white;
+    font-weight: bold;
+}
+.ques h2{
+    margin-bottom: 15px;
+    font-weight: bolder ;
+}
+.ques li{
+    background-image: linear-gradient(to right,#F58F7c, #F2c4ce,#d6d6d6,#ffff) ;
+    list-style: none;
+    border: 1px solid #F2c4ce;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    padding: 6px;
+    /* background-color: white; */
+    width: 190px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+    color: white;
+    display: block;
+}
+.ques li:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+/* .active{
+color: gray;
+background-color: red;
+} */
+.nextbtn{
+    padding: 10px;
+    border: 1px solid white;
+    background-image: linear-gradient(to left,#F58F7c,#F2c4ce,#D6D6D6);
+    color: white;
+    margin: 10px 50px;
+    border-radius: 10px;
+}
+.nextbtn:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.nextbtn:focus{
+    outline: skyblue;
+}
+/* #Q2,#Q3,#Q4,#Q5,#Q6,#Q7,#Q8,#Q9,#Q10{
+  display: none;
+} */
+/*.result{
+    padding: 7px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    border-radius: 10px;
+    display: flex;
+   float: right;
+  margin: 20px;
+} */
+.timer p{
+    display: inline;
+}
+.endc{
+    height: 400px;
+    width: 600px auto;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-image: linear-gradient(to left,#F58F7c,#F2c4ce,#D6D6D6);
+    /* background-image: linear-gradient(to right,black,#4f4f4f,#D6D6D6); */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+table{
+    color: white;
+   margin: 8px auto;
+   padding: 20px;
+    border: 4px solid white;
+}
+
+.endc table tr td{
+    
+    padding:  7px 30px;
+    border: 1px solid white;
+    text-align: center;
+}
